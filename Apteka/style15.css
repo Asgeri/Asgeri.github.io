@@ -1,0 +1,313 @@
+a {
+    color:white;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+  color: #404040;
+    background-color: white;
+    min-width: 1040px;
+}
+
+footer{/* падвал */
+    width:100%;
+    height:100%;
+    background-color: #1C1C1C;
+    color:white;
+    border-radius: 1%;
+    display: flex;
+    align-items: center;
+    background-color:rgba(39, 48, 55);
+    margin-top: 0.1%;
+}
+
+footer p {/* падвал */
+    font-size: 100%;
+    color:white;
+    text-align: center;
+    padding-left: 22%;
+}
+
+
+/*кнопка наверх*/
+
+.buttonup {
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    bottom: -80%;
+    right: -20%;
+}
+.buttonup img{
+    width: 30%;
+    height: 20%;
+}
+
+
+
+
+/*Выпадающее меню*/
+
+* {box-sizing: border-box;}
+body {
+  margin: 0;
+  background: #f2f2f2;
+}
+header {
+    width: 80%;
+    margin-left: 10%;
+    height: 90px;
+    background-color: #1C1C1C;
+    background-color: rgba(60,60,60,1);
+    background: white;
+    text-align: center;
+
+
+
+  background: white;
+  text-align: center;
+}
+header a {
+  display: block;
+  text-decoration: none;
+  outline: none;  
+  transition: .3s ease-in-out;
+}
+.logo {
+  color: #912CEE;/*цвет*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5em;
+  padding: 20px 0;
+}
+nav {
+  display: table;
+  padding-bottom:50em auto;
+  background: #273037;
+
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu:after {+
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.topmenu > li {
+  width: 25%;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.topmenu > li > a {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px 60px;
+}
+.topmenu li a:hover {color: #912CEE;}/*цвет*/
+.submenu-link:after {
+  /*content: "\f107";*/
+  font-family: 'Open Sans', sans-serif;
+  color: inherit;
+  margin-left: 10px;
+}
+
+.submenu li:last-child a {border-bottom: none;}
+.topmenu > li:hover .submenu {
+  opacity: 1;
+    transform: scaleY(1);
+}
+                            /* шапка */
+.page-header{
+  min-height: 40%;
+  background-color: #273037;
+    color: #FFF8DC;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    margin:;
+
+    
+}
+
+.header-top{
+ margin-bottom: ;   
+}
+
+.header-logo{
+    float: left;
+    width: 20%;
+    margin-right: 0%;
+    
+}
+
+.header-logo img{
+  width: 33%;
+  height: 0%;
+  margin-bottom: 0%;
+  margin: 0px;
+  margin-left: 1%; /* двиг. карт. */
+ 
+}
+
+
+
+
+
+
+        /*....................wraper...............*/
+.wraper{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 0 0% 0;
+    background-color: white;
+}
+
+.wrap{
+    padding: 0%;
+    color: gray;
+
+}
+
+
+
+
+
+
+/*/\/\/\*/
+
+
+/* ............................отдельно.................... */
+.container{
+    width: 77%;
+    margin: 0 auto;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.btn{
+  margin-left: 25%;
+    color: rgb( 85 26 139);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid rgb(  85 26 139);
+    padding: 10px;
+    word-wrap: break-word;
+    text-align: center;
+    font: inherit;
+    border-radius: 10px;
+    background: white;
+}
+
+.btn:hover{
+    color: #912CEE;
+    border-color: #912CEE;
+}
+.btn:active{
+    color: rgba(125 38 205,0.3);
+    border-color: #912CEE;
+}
+.btn-quick-order{
+  float: right;
+  margin-top: 6px;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+}
+.btn-quick-order:hover{
+    color: rgb(125 38 205);
+    background-color: white;
+    border-color: white;
+
+}
+.btn-quick-order:active{
+  color: rgba(125 38 205, 0.3);
+  border-color: white;
+  background-color: white;
+}
+
+
+
+
+
+
+/*....................... 1 пункт....................... */
+.wrap>big{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.dd{
+  color: black;
+}
+.text{
+  padding-right: 7%;
+  color: black;
+  font-size: 80%;
+}
+
+.big{
+
+}
+/* кнопки подвала вк инст. фейс. */
+.social-btn{
+    color: #7D26CD;
+    text-decoration: none;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    border: 50px solid rgba(85 26 139, 0.1);
+     font-size: 0;
+}
+
+
+.vkk{
+    margin-left: 1%;
+
+}
+.in{
+margin-left: 1%;
+}
+
+.fei{
+    margin-left: 1%;
+}
+b{
+
+    color: red;
+    padding-left: 10%;
+}
+.b{
+color: white;
+}
+
+.vkk:hover{
+    color: #1E90FF;
+
+}
+.in:hover{
+    color: #FFD700;
+}
+
+.fei:hover{
+    color: #1E90FF;
+}
+
